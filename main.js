@@ -36,7 +36,7 @@ buttons.forEach((button) => {
         all(e)
         let btnfill = e.target.dataset.fillter;
 // console.log(btnfill);
-        boxes.forEach((box => {
+        boxes.forEach((box) => {
             if (btnfill == "all") {
                 box.style.display = "block";
             }
@@ -51,7 +51,7 @@ buttons.forEach((button) => {
                 }
             }
             
-        }))
+        })
     })
 })
 
